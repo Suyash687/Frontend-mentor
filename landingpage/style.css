@@ -1,0 +1,334 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* headre section  */
+
+header {
+  background: url(./additionalfiles/desktop/image-header.jpg);
+  height: 42.5rem;
+  width: 100%;
+}
+
+header .headimg {
+  display: flex;
+  justify-content: center;
+}
+.headimg img {
+  height: 82vh;
+}
+
+#navbar {
+  height: 12vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  color: white;
+  font-weight: bolder;
+  /* margin-left: -20rem; */
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  width: 20%;
+  text-align: center;
+}
+.right {
+  height: 100%;
+  width: 43%;
+  display: flex;
+  font-family: "Barlow", sans-serif;
+  align-items: center;
+}
+#navbar .navigation {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.navigation ul {
+  display: flex;
+  /* padding: 6px; */
+  margin: 3px;
+  width: 100%;
+  height: 51px;
+  justify-content: space-evenly;
+}
+.navigation ul li {
+  list-style: none;
+  /* margin: 12px; */
+  border: 1px solid #ff000000;
+  padding: 14px;
+  border-radius: 23px;
+  color: white;
+  width: 74px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+.navigation ul li:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 52px;
+}
+.heading h1 {
+  font-family: "Fraunces", serif;
+  color: white;
+}
+.heading img {
+  height: 70vh;
+  /* width: 75vw; */
+  position: relative;
+  top: -141px;
+}
+
+.arrow {
+  position: relative;
+  font-size: 119px;
+  top: 112px;
+  z-index: 1;
+}
+
+/* Main section */
+.main {
+  display: flex;
+}
+.m1 {
+  display: flex;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  width: 50%;
+}
+.box2 {
+  background: url(./additionalfiles/desktop/image-transform.jpg);
+  width: 50%;
+  height: 514px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.child1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0px 137px;
+  height: 40vh;
+}
+.child1 h2 {
+  font-family: "Fraunces";
+  font-size: 32px;
+}
+
+.child1 p {
+  font-family: system-ui;
+  color: gray;
+}
+.child h4 {
+  font-family: "Fraunces";
+  font-size: 13px;
+}
+
+.dabba1 {
+  background: url(./additionalfiles/desktop/image-stand-out.jpg);
+
+  width: 50%;
+  height: 514px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* fotu section */
+
+.f1 {
+  background: url(./additionalfiles/desktop/image-graphic-design.jpg);
+  width: 50%;
+  height: 514px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.f2 {
+  background: url(./additionalfiles/desktop/image-photography.jpg);
+  width: 50%;
+  height: 514px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main1 {
+  display: flex;
+}
+.m11 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 290px;
+  height: 158px;
+  color: hsl(167, 40%, 24%);
+}
+.cont1 h3 {
+  font-family: "Fraunces";
+}
+.cont1 p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 290px;
+  height: 158px;
+  color: hsl(198, 62%, 26%);
+}
+.cont2 h3 {
+  font-family: "Fraunces";
+}
+.cont2 p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* client section */
+
+.c1 {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 83vh;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 51vh;
+  /* padding: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cr {
+  width: 100%;
+  /* border: 2px solid green; */
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.c1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  margin: 31px;
+}
+.c1 img {
+  width: 66px;
+  border-radius: 50px;
+}
+.c1 h4 {
+  margin-top: 28px;
+  font-family: "Fraunces";
+}
+.c1 h6 {
+  margin-top: -28px;
+  font-family: "Barlow";
+  color: gray;
+}
+.c1 p {
+  font-family: "Barlow";
+  font-size: 13px;
+  font-weight: 600;
+}
+.hln {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: gray;
+}
+
+/* corousal section */
+.frame {
+  height: 57vh;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+}
+
+.fram {
+  display: flex;
+  width: 25%;
+}
+.fram img {
+  width: 100%;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(168deg 45% 32% / 59%);
+}
+footer h2 {
+  margin: 49px 6px 18px;
+  font-family: "Barlow";
+  font-weight: bold;
+  color: #2c7566;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  list-style: none;
+  margin: 0px 22px;
+  color: #2c7566;
+  font-family: "Barlow";
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.fvicn {
+  margin: 61px 0px 37px;
+}
+.fvicn img {
+  margin: 0px 15px;
+}
